@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Hydra Quickie!</title>
+
+    <!-- Bootstrap -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../css/styles.css" rel="stylesheet"/>
+
+    <script src="../js/jquery-1.12.4.js"></script>
+    <script src="../js/popup.js"></script>
+</head>
+<body class="">
+<div class="container-fluid main">
+    <div class="row">
+
+        <header>
+            <div class="col-sm-3">
+                <img src="../img/brand-logo.png">
+            </div>
+            <div class="col-sm-6 text-center">
+                <h3> Hydra Links - Local </h3>
+            </div>
+        </header>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-sm-3">
+            <ul class="nav nav-pills nav-stacked" role="tablist">
+                <li role="presentation" class="active"><a href="#table-lexus-websites" aria-controls="home" role="tab"
+                                                          data-toggle="tab">Lexus Dealers</a></li>
+                <li role="presentation"><a href="#table-gm-websites" aria-controls="home" role="tab" data-toggle="tab">GM
+                    Dealers</a></li>
+            </ul>
+        </div>
+
+        <div class="col-sm-9">
+
+            <div class="panel panel-default">
+
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="input-group">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-danger" id="btn-filter-reset" type="button">Reset</button>
+                                </span>
+                                <input type="text" id="filter-webid" class="form-control" placeholder="Search for..."/>
+                                <span class="input-group-btn">
+                                        <button class="btn btn-success" id="btn-filter" type="button">Go!</button>
+                                </span>
+                            </div><!-- /input-group -->
+                        </div>
+                    </div>
+                    <div class="row top-buffer">
+                        <div class="col-lg-6">
+                            <div class="tab-content">
+
+                                <div id="table-lexus-websites" role="tabpanel"
+                                     class="tab-pane fade in active table-responsive">
+
+                                </div>
+                                <div id="table-gm-websites" role="tabpanel" class="tab-pane fade table-responsive">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel-footer">
+                    (c) Neo Designs
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>
+</body>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+</html>

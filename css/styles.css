@@ -1,0 +1,18 @@
+.main{
+    width: 800px;
+    height: 600px;
+    overflow: auto;
+}
+
+body header img{
+ /*   height: 50%; */
+    width: 60%;
+}
+
+.tab-content > div {
+    max-height:300px;
+}
+
+.top-buffer{
+    margin-top: 20px;
+}
